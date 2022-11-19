@@ -1,0 +1,17 @@
+{
+  "name": "greengo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pgrignaffini/Greengo.git",
+  "author": "grignaffini <grignaffinipaolo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3"
+  }
+}

@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# artifacts
+/artifacts
+/cache
+/typechain-types
+
+# dependencies
+/node_modules
+/frontend/node_modules
+/frontend/.pnp
+.pnp.js
+
+# testing
+/frontend/coverage
+
+# database
+/frontend/prisma/db.sqlite
+/frontend/prisma/db.sqlite-journal
+
+# next.js
+/frontend/.next/
+/frontend/out/
+
+# production
+/frontend/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+/frontend/.env
+/frontend/.env*.local
+
+# vercel
+.vercel
+
+# typescript
+/frontend/*.tsbuildinfo
+
+# Local Netlify folder
+.netlify
